@@ -30,7 +30,10 @@
             <table>
                 <thead>
                     <tr>
-                        <th>Nomes:</th>
+                        <th>Nomes</th>
+                        <th>Endereço</th>
+                        <th>Número de telefone</th>
+
                     </tr>
                 </thead>
                 <tbody id="listaEditora"></tbody>
@@ -43,6 +46,8 @@
                     <h3>Adicionar/Atualizar Editora</h3>
                     <input type="hidden" id="id_editora">
                     <input type="text" id="nome" placeholder="Nome" required>
+                    <input type="text" id="endereco" placeholder="Endereço" required>
+                    <input type="text" id="telefone" placeholder="Número de telefone" required>
                     <button type="submit">Salvar</button>
                     <button type="button" id="closePopupBtn">Fechar</button>
                 </form>
